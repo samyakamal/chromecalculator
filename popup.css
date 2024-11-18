@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:white;
+  }
+  
+  .calculator {
+    width: 200px;
+    margin: 20px auto;
+    background-color:whitesmoke ;
+  }
+  
+  input#result {
+    padding: 10%;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 1.2em;
+    border: 1cap;
+    background-color:beige;
+    color: black;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5%;
+    box-shadow: 0,0,0.5vmin;
+    margin-top: 2rem;
+    background-color: white;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
